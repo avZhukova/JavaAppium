@@ -1,0 +1,910 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="fd09ff97-4a97-4ca5-b658-c97182b745ec" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/lib/UI/mobile_web/MWArticlePageObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/lib/UI/mobile_web/MWBookmarkListPageObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/lib/UI/mobile_web/MWMainPageObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/lib/UI/mobile_web/MWSearchPageObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/lib/UI/pageObjects/AuthorizationPageObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/lib/CoreTestCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/lib/CoreTestCase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/lib/Platform.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/lib/Platform.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/lib/UI/android/AndroidArticlePageObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/lib/UI/android/AndroidArticlePageObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/lib/UI/android/AndroidBookmarkListPageObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/lib/UI/android/AndroidBookmarkListPageObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/lib/UI/android/AndroidMainPageObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/lib/UI/android/AndroidMainPageObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/lib/UI/android/AndroidSearchPageObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/lib/UI/android/AndroidSearchPageObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/lib/UI/android/AndroidWelcomePageObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/lib/UI/android/AndroidWelcomePageObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/lib/UI/factories/ArticlePageObjectFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/lib/UI/factories/ArticlePageObjectFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/lib/UI/factories/BookmarkListPageObjectFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/lib/UI/factories/BookmarkListPageObjectFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/lib/UI/factories/MainPageObjectFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/lib/UI/factories/MainPageObjectFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/lib/UI/factories/SearchPageObjectFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/lib/UI/factories/SearchPageObjectFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/lib/UI/factories/WelcomePageObjectFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/lib/UI/factories/WelcomePageObjectFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/lib/UI/ios/IOSArticlePageObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/lib/UI/ios/IOSArticlePageObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/lib/UI/ios/IOSBookmarkListPageObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/lib/UI/ios/IOSBookmarkListPageObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/lib/UI/ios/IOSMainPageObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/lib/UI/ios/IOSMainPageObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/lib/UI/ios/IOSSearchPageObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/lib/UI/ios/IOSSearchPageObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/lib/UI/ios/IOSWelcomePageObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/lib/UI/ios/IOSWelcomePageObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/lib/UI/pageObjects/ArticlePageObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/lib/UI/pageObjects/ArticlePageObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/lib/UI/pageObjects/BookmarkListPageObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/lib/UI/pageObjects/BookmarkListPageObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/lib/UI/pageObjects/MainPageObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/lib/UI/pageObjects/MainPageObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/lib/UI/pageObjects/SearchPageObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/lib/UI/pageObjects/SearchPageObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/lib/UI/pageObjects/WelcomePageObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/lib/UI/pageObjects/WelcomePageObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/lib/tests/FirstTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/lib/tests/FirstTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/lib/CoreTestCase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/lib/CoreTestCase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/lib/Platform.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/lib/Platform.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/lib/UI/android/AndroidArticlePageObject.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/lib/UI/android/AndroidArticlePageObject.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/lib/UI/android/AndroidBookmarkListPageObject.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/lib/UI/android/AndroidBookmarkListPageObject.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/lib/UI/android/AndroidMainPageObject.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/lib/UI/android/AndroidMainPageObject.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/lib/UI/android/AndroidSearchPageObject.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/lib/UI/android/AndroidSearchPageObject.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/lib/UI/android/AndroidWelcomePageObject.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/lib/UI/android/AndroidWelcomePageObject.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/lib/UI/factories/ArticlePageObjectFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/lib/UI/factories/ArticlePageObjectFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/lib/UI/factories/BookmarkListPageObjectFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/lib/UI/factories/BookmarkListPageObjectFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/lib/UI/factories/MainPageObjectFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/lib/UI/factories/MainPageObjectFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/lib/UI/factories/SearchPageObjectFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/lib/UI/factories/SearchPageObjectFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/lib/UI/factories/WelcomePageObjectFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/lib/UI/factories/WelcomePageObjectFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/lib/UI/ios/IOSArticlePageObject.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/lib/UI/ios/IOSArticlePageObject.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/lib/UI/ios/IOSBookmarkListPageObject.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/lib/UI/ios/IOSBookmarkListPageObject.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/lib/UI/ios/IOSMainPageObject.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/lib/UI/ios/IOSMainPageObject.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/lib/UI/ios/IOSSearchPageObject.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/lib/UI/ios/IOSSearchPageObject.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/lib/UI/ios/IOSWelcomePageObject.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/lib/UI/ios/IOSWelcomePageObject.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/lib/UI/pageObjects/ArticlePageObject.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/lib/UI/pageObjects/ArticlePageObject.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/lib/UI/pageObjects/BookmarkListPageObject.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/lib/UI/pageObjects/BookmarkListPageObject.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/lib/UI/pageObjects/MainPageObject.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/lib/UI/pageObjects/MainPageObject.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/lib/UI/pageObjects/SearchPageObject.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/lib/UI/pageObjects/SearchPageObject.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/lib/UI/pageObjects/WelcomePageObject.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/lib/UI/pageObjects/WelcomePageObject.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/lib/tests/FirstTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/lib/tests/FirstTests.class" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/lib/tests/FirstTests.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="893">
+              <caret line="124" column="55" selection-start-line="124" selection-start-column="55" selection-end-line="124" selection-end-column="55" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#testCheckSearchField#0;class#FirstTests#0" />
+                <element signature="method#testCheckSearchResultPresent#0;class#FirstTests#0" />
+                <element signature="method#testCheckSearchResultContainsRequestedString#0;class#FirstTests#0" />
+                <element signature="method#testCheckArticleTitleWithoutWaiting#0;class#FirstTests#0" />
+                <element signature="method#testChangeScreenOrientationOnSearchResults#0;class#FirstTests#0" />
+                <element signature="method#testCheckSearchResultByTitleAndSubtitle#0;class#FirstTests#0" />
+                <element signature="method#testPassThroughWelcome#0;class#FirstTests#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/lib/UI/pageObjects/BookmarkListPageObject.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="435">
+              <caret line="35" column="54" selection-start-line="35" selection-start-column="54" selection-end-line="35" selection-end-column="54" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/lib/UI/pageObjects/ArticlePageObject.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="178">
+              <caret line="22" column="12" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="12" />
+              <folding>
+                <element signature="method#addArticleToBookmarksAndCreateList#0;class#ArticlePageObject#0" />
+                <element signature="method#openMyLists#0;class#ArticlePageObject#0" />
+                <element signature="method#returnToMainScreen#0;class#ArticlePageObject#0" />
+                <element signature="method#getArticleSubtitle#0;class#ArticlePageObject#0" />
+                <element signature="method#getArticleTitle#0;class#ArticlePageObject#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/lib/UI/mobile_web/MWArticlePageObject.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/lib/UI/mobile_web/MWBookmarkListPageObject.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="156" selection-start-line="9" selection-start-column="41" selection-end-line="9" selection-end-column="156" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>OVERFLOW_MENU_BUTTON</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/lib/UI/android/AndroidSearchPageObject.java" />
+        <option value="$PROJECT_DIR$/src/test/java/lib/UI/ios/IOSSearchPageObject.java" />
+        <option value="$PROJECT_DIR$/src/test/java/lib/UI/pageObjects/WelcomePageObject.java" />
+        <option value="$PROJECT_DIR$/src/test/java/lib/UI/ios/IOSWelcomePageObject.java" />
+        <option value="$PROJECT_DIR$/src/test/java/lib/UI/factories/WelcomePageObjectFactory.java" />
+        <option value="$PROJECT_DIR$/src/test/java/lib/UI/android/AndroidWelcomePageObject.java" />
+        <option value="$PROJECT_DIR$/src/test/java/lib/UI/ios/IOSArticlePageObject.java" />
+        <option value="$PROJECT_DIR$/src/test/java/lib/UI/android/AndroidArticlePageObject.java" />
+        <option value="$PROJECT_DIR$/src/test/java/lib/UI/ios/IOSBookmarkListPageObject.java" />
+        <option value="$PROJECT_DIR$/src/test/java/lib/UI/android/AndroidBookmarkListPageObject.java" />
+        <option value="$PROJECT_DIR$/src/test/java/lib/UI/ios/IOSMainPageObject.java" />
+        <option value="$PROJECT_DIR$/src/test/java/lib/UI/android/AndroidMainPageObject.java" />
+        <option value="$PROJECT_DIR$/src/test/java/lib/CoreTestCase.java" />
+        <option value="$PROJECT_DIR$/src/test/java/lib/Platform.java" />
+        <option value="$PROJECT_DIR$/src/test/java/lib/UI/factories/SearchPageObjectFactory.java" />
+        <option value="$PROJECT_DIR$/src/test/java/lib/UI/factories/ArticlePageObjectFactory.java" />
+        <option value="$PROJECT_DIR$/src/test/java/lib/UI/factories/BookmarkListPageObjectFactory.java" />
+        <option value="$PROJECT_DIR$/src/test/java/lib/UI/mobile_web/MWMainPageObject.java" />
+        <option value="$PROJECT_DIR$/src/test/java/lib/UI/factories/MainPageObjectFactory.java" />
+        <option value="$PROJECT_DIR$/src/test/java/lib/UI/pageObjects/MainPageObject.java" />
+        <option value="$PROJECT_DIR$/src/test/java/lib/UI/mobile_web/MWArticlePageObject.java" />
+        <option value="$PROJECT_DIR$/src/test/java/lib/UI/pageObjects/AuthorizationPageObject.java" />
+        <option value="$PROJECT_DIR$/src/test/java/lib/UI/mobile_web/MWSearchPageObject.java" />
+        <option value="$PROJECT_DIR$/src/test/java/lib/UI/pageObjects/SearchPageObject.java" />
+        <option value="$PROJECT_DIR$/src/test/java/lib/UI/mobile_web/MWBookmarkListPageObject.java" />
+        <option value="$PROJECT_DIR$/src/test/java/lib/UI/pageObjects/ArticlePageObject.java" />
+        <option value="$PROJECT_DIR$/src/test/java/lib/tests/FirstTests.java" />
+        <option value="$PROJECT_DIR$/src/test/java/lib/UI/pageObjects/BookmarkListPageObject.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="50" />
+    <option name="y" value="23" />
+    <option name="width" value="1630" />
+    <option name="height" value="1027" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="JavaAppium" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaAppium" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaAppium" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaAppium" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaAppium" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaAppium" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaAppium" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaAppium" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaAppium" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaAppium" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaAppium" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaAppium" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaAppium" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaAppium" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="UI" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaAppium" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaAppium" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="UI" type="462c0819:PsiDirectoryNode" />
+              <item name="android" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaAppium" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaAppium" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="UI" type="462c0819:PsiDirectoryNode" />
+              <item name="factories" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaAppium" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaAppium" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="UI" type="462c0819:PsiDirectoryNode" />
+              <item name="ios" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaAppium" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaAppium" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="UI" type="462c0819:PsiDirectoryNode" />
+              <item name="mobile_web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaAppium" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaAppium" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="UI" type="462c0819:PsiDirectoryNode" />
+              <item name="pageObjects" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaAppium" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaAppium" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1563175694534" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.repository.indices" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.FirstTests.testSaveTwoArticlesToMyList">
+    <configuration name="FirstTests.testCheckSearchField" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaAppium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lib.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="lib.tests" />
+      <option name="MAIN_CLASS_NAME" value="lib.tests.FirstTests" />
+      <option name="METHOD_NAME" value="testCheckSearchField" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="PARAMETERS" value="" />
+      <envs>
+        <env name="PLATFORM" value="mobile_web" />
+      </envs>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FirstTests.testCheckSearchResultContainsRequestedString" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaAppium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lib.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="lib.tests" />
+      <option name="MAIN_CLASS_NAME" value="lib.tests.FirstTests" />
+      <option name="METHOD_NAME" value="testCheckSearchResultContainsRequestedString" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="PARAMETERS" value="" />
+      <envs>
+        <env name="PLATFORM" value="mobile_web" />
+      </envs>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FirstTests.testCheckSearchResultPresent" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaAppium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lib.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="lib.tests" />
+      <option name="MAIN_CLASS_NAME" value="lib.tests.FirstTests" />
+      <option name="METHOD_NAME" value="testCheckSearchResultPresent" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="PARAMETERS" value="" />
+      <envs>
+        <env name="PLATFORM" value="mobile_web" />
+      </envs>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FirstTests.testSaveTwoArticlesToMyList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaAppium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lib.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="lib.tests" />
+      <option name="MAIN_CLASS_NAME" value="lib.tests.FirstTests" />
+      <option name="METHOD_NAME" value="testSaveTwoArticlesToMyList" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="PARAMETERS" value="" />
+      <option name="PASS_PARENT_ENVS" value="false" />
+      <envs>
+        <env name="PLATFORM" value="mobile_web" />
+      </envs>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.FirstTests.testCheckSearchField" />
+      <item itemvalue="JUnit.FirstTests.testCheckSearchResultPresent" />
+      <item itemvalue="JUnit.FirstTests.testCheckSearchResultContainsRequestedString" />
+      <item itemvalue="JUnit.FirstTests.testSaveTwoArticlesToMyList" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.FirstTests.testSaveTwoArticlesToMyList" />
+        <item itemvalue="JUnit.FirstTests.testCheckSearchResultContainsRequestedString" />
+        <item itemvalue="JUnit.FirstTests.testCheckSearchResultPresent" />
+        <item itemvalue="JUnit.FirstTests.testCheckSearchField" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fd09ff97-4a97-4ca5-b658-c97182b745ec" name="Default Changelist" comment="" />
+      <created>1562920122292</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1562920122292</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="FirstTests_testSaveTwoArticlesToMyList - 2019.07.15 at 10h 16m 26s.xml">
+      <configuration name="FirstTests.testSaveTwoArticlesToMyList" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FirstTests_testSaveTwoArticlesToMyList - 2019.07.15 at 10h 17m 28s.xml">
+      <configuration name="FirstTests.testSaveTwoArticlesToMyList" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FirstTests_testSaveTwoArticlesToMyList - 2019.07.15 at 10h 18m 04s.xml">
+      <configuration name="FirstTests.testSaveTwoArticlesToMyList" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FirstTests_testSaveTwoArticlesToMyList - 2019.07.15 at 10h 20m 51s.xml">
+      <configuration name="FirstTests.testSaveTwoArticlesToMyList" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FirstTests_testSaveTwoArticlesToMyList - 2019.07.15 at 10h 22m 12s.xml">
+      <configuration name="FirstTests.testSaveTwoArticlesToMyList" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FirstTests_testSaveTwoArticlesToMyList - 2019.07.15 at 10h 22m 31s.xml">
+      <configuration name="FirstTests.testSaveTwoArticlesToMyList" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FirstTests_testSaveTwoArticlesToMyList - 2019.07.15 at 10h 22m 47s.xml">
+      <configuration name="FirstTests.testSaveTwoArticlesToMyList" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FirstTests_testSaveTwoArticlesToMyList - 2019.07.15 at 10h 22m 59s.xml">
+      <configuration name="FirstTests.testSaveTwoArticlesToMyList" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FirstTests_testSaveTwoArticlesToMyList - 2019.07.15 at 10h 23m 21s.xml">
+      <configuration name="FirstTests.testSaveTwoArticlesToMyList" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FirstTests_testSaveTwoArticlesToMyList - 2019.07.15 at 10h 24m 55s.xml">
+      <configuration name="FirstTests.testSaveTwoArticlesToMyList" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="50" y="23" width="1630" height="1027" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25629723" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" weight="0.32941177" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32941177" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+    </layout>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/lib/Platform.java</url>
+          <line>40</line>
+          <properties />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/lib/UI/pageObjects/ArticlePageObject.java</url>
+          <line>66</line>
+          <properties />
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/lib/UI/pageObjects/ArticlePageObject.java</url>
+          <line>64</line>
+          <properties class="lib.UI.pageObjects.ArticlePageObject" method="openMyLists">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/lib/UI/pageObjects/ArticlePageObject.java</url>
+          <line>80</line>
+          <properties class="lib.UI.pageObjects.ArticlePageObject" method="returnToMainScreen">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="JUnit">
+        <watch expression="we.getText().toLowerCase()" language="JAVA" />
+        <watch expression="this.isMV()" language="JAVA" />
+        <watch expression="isPlatform(PLATFORM_MOBILE_WEB)" language="JAVA" />
+        <watch expression="getPlatformVar()" language="JAVA" />
+        <watch expression="PASSWORD_INPUT" language="JAVA" />
+        <watch expression="search_result_xpath" language="JAVA" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="watch">
+      <expression>
+        <expression-string>search_result_xpath</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>PASSWORD_INPUT</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>getPlatformVar()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>isPlatform(PLATFORM_MOBILE_WEB)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>this.isMV()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>we.getText().toLowerCase()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="29" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/lib/UI/pageObjects/WelcomePageObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="16" column="44" selection-start-line="16" selection-start-column="44" selection-end-line="16" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/lib/UI/ios/IOSWelcomePageObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="18" column="47" selection-start-line="18" selection-start-column="47" selection-end-line="18" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/lib/UI/android/AndroidWelcomePageObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="18" column="51" selection-start-line="18" selection-start-column="51" selection-end-line="18" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/lib/UI/ios/IOSBookmarkListPageObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="12" column="52" selection-start-line="12" selection-start-column="52" selection-end-line="12" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/lib/UI/android/AndroidSearchPageObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="17" column="50" selection-start-line="17" selection-start-column="50" selection-end-line="17" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/lib/UI/ios/IOSMainPageObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/lib/UI/factories/WelcomePageObjectFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="11" column="55" selection-start-line="11" selection-start-column="55" selection-end-line="11" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/lib/UI/ios/IOSSearchPageObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/lib/CoreTestCase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/lib/UI/android/AndroidArticlePageObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="24" lean-forward="true" selection-start-line="6" selection-start-column="38" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/lib/UI/factories/SearchPageObjectFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="18" column="9" lean-forward="true" selection-start-line="16" selection-start-column="10" selection-end-line="18" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/lib/UI/ios/IOSArticlePageObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="12" column="89" lean-forward="true" selection-start-line="9" selection-start-column="8" selection-end-line="12" selection-end-column="89" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/lib/UI/android/AndroidBookmarkListPageObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="14" column="5" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="14" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/lib/UI/factories/ArticlePageObjectFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="19" column="9" selection-start-line="17" selection-start-column="10" selection-end-line="19" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/lib/UI/android/AndroidMainPageObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="16" lean-forward="true" selection-start-line="6" selection-start-column="20" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/lib/UI/factories/BookmarkListPageObjectFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="19" column="9" lean-forward="true" selection-start-line="17" selection-start-column="10" selection-end-line="19" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/lib/UI/mobile_web/MWMainPageObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/lib/UI/factories/MainPageObjectFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/lib/Platform.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/lib/UI/pageObjects/AuthorizationPageObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+          <folding>
+            <element signature="e#999#1000#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/lib/UI/mobile_web/MWSearchPageObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="52" selection-start-line="12" selection-start-column="52" selection-end-line="12" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/lib/UI/pageObjects/SearchPageObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="51" selection-start-line="51" selection-end-line="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/lib/UI/pageObjects/MainPageObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="258" column="46" selection-start-line="258" selection-start-column="16" selection-end-line="258" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/lib/UI/mobile_web/MWBookmarkListPageObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="156" selection-start-line="9" selection-start-column="41" selection-end-line="9" selection-end-column="156" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/lib/UI/mobile_web/MWArticlePageObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/lib/tests/FirstTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="893">
+          <caret line="124" column="55" selection-start-line="124" selection-start-column="55" selection-end-line="124" selection-end-column="55" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#testCheckSearchField#0;class#FirstTests#0" />
+            <element signature="method#testCheckSearchResultPresent#0;class#FirstTests#0" />
+            <element signature="method#testCheckSearchResultContainsRequestedString#0;class#FirstTests#0" />
+            <element signature="method#testCheckArticleTitleWithoutWaiting#0;class#FirstTests#0" />
+            <element signature="method#testChangeScreenOrientationOnSearchResults#0;class#FirstTests#0" />
+            <element signature="method#testCheckSearchResultByTitleAndSubtitle#0;class#FirstTests#0" />
+            <element signature="method#testPassThroughWelcome#0;class#FirstTests#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/lib/UI/pageObjects/ArticlePageObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="22" column="12" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="12" />
+          <folding>
+            <element signature="method#addArticleToBookmarksAndCreateList#0;class#ArticlePageObject#0" />
+            <element signature="method#openMyLists#0;class#ArticlePageObject#0" />
+            <element signature="method#returnToMainScreen#0;class#ArticlePageObject#0" />
+            <element signature="method#getArticleSubtitle#0;class#ArticlePageObject#0" />
+            <element signature="method#getArticleTitle#0;class#ArticlePageObject#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/lib/UI/pageObjects/BookmarkListPageObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="35" column="54" selection-start-line="35" selection-start-column="54" selection-end-line="35" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>JavaAppium</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: cglib:cglib-nodep:3.2.4</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
